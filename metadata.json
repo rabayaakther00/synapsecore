@@ -1,0 +1,6 @@
+{
+  "name": "SynapseCore - Official B2B Service Catalog & Pricing",
+  "description": "Official B2B Service Catalog and Pricing for SynapseCore. Smart Tech. Seamless Growth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
