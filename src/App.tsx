@@ -8,6 +8,7 @@ import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { ServicesSection } from './components/ServicesSection';
+import { PricingCalculator } from './components/PricingCalculator';
 import { WhyChooseUs } from './components/WhyChooseUs';
 import { Testimonials } from './components/Testimonials';
 import { FaqSection } from './components/FaqSection';
@@ -37,7 +38,7 @@ function MainContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#051F20] via-[#0B2B26] to-[#051F20] text-[#DAF1DE] flex flex-col selection:bg-[#8EB69B]/30 selection:text-white">
+    <div className="min-h-screen bg-[#020617] text-slate-100 flex flex-col selection:bg-indigo-500/30 selection:text-white">
       {/* Top Bar / Navigation */}
       <Navbar onGetStartedClick={scrollToServices} />
 
@@ -52,23 +53,26 @@ function MainContent() {
         {/* 2. Services Section (Desktop 3-3-2 Grid) */}
         <ServicesSection onSelectService={(service) => setSelectedService(service)} />
 
-        {/* 3. Why Choose Us Section */}
+        {/* 3. Interactive Pricing & ROI Calculator */}
+        <PricingCalculator />
+
+        {/* 4. Why Choose Us Section */}
         <WhyChooseUs />
 
-        {/* 4. Client Testimonials Section */}
+        {/* 5. Client Testimonials Section */}
         <Testimonials />
 
-        {/* 5. FAQ Accordion Section */}
+        {/* 6. FAQ Accordion Section */}
         <FaqSection />
 
-        {/* Contact Section */}
+        {/* 7. Contact Section */}
         <ContactSection />
       </main>
 
-      {/* 6. Footer Section */}
+      {/* 8. Footer Section */}
       <Footer />
 
-      {/* 4. Service Detail Modal / Dedicated View */}
+      {/* Service Detail Modal / Dedicated View */}
       <ServiceDetailModal
         service={selectedService}
         onClose={() => setSelectedService(null)}
@@ -79,7 +83,7 @@ function MainContent() {
         href={`https://wa.me/${siteConfig.whatsAppNumber}?text=${encodeURIComponent('Hello SynapseCore! I am reviewing your official B2B service catalog and would like to consult.')}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-40 p-3.5 rounded-full bg-[#8EB69B] text-[#051F20] shadow-[0_6px_25px_rgba(142,182,155,0.4)] hover:scale-110 active:scale-95 transition-all duration-200 flex items-center justify-center group"
+        className="fixed bottom-6 right-6 z-40 p-3.5 rounded-full bg-gradient-to-r from-emerald-500 to-teal-600 text-white shadow-[0_6px_25px_rgba(16,185,129,0.45)] hover:scale-110 active:scale-95 transition-all duration-200 flex items-center justify-center group border border-emerald-400/40"
         aria-label="Chat on WhatsApp"
         title="Chat on WhatsApp: 01353762827"
       >

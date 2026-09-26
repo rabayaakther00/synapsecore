@@ -42,7 +42,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "সেলস ও বিজনেস গ্রোথ",
     overviewBn: "আমরা শুধু ফেসবুক ও গুগলে প্রমোশনাল পোস্ট বা অ্যাড রান করি না, বরং সঠিক অডিয়েন্স ট্র্যাকিং এবং অ্যাডভান্সড পিক্সেল সেটআপের মাধ্যমে আপনার সার্ভিসের প্রকৃত কাস্টমার খুঁজে বের করি। সঠিক ডাটা বিশ্লেষণ ও রিটার্গেটিং ফানেল ব্যবহার করে আমরা কম খরচে আপনার বিজনেসের সেলস ও রেভিনিউ সর্বোচ্চ নিশ্চিত করি।",
     overviewEn: "We don't just run basic ads on Facebook and Google; we identify your ideal buyers through precise tracking and advanced Meta Pixel setup. By leveraging data-driven remarketing funnels, we maximize your sales and revenue while keeping your ad acquisition costs as low as possible.",
-    image: "/src/assets/images/service_paid_ads_1790349113064.jpg",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "Comprehensive Audience & Competitor Funnel Research",
       "Complete Meta Pixel, CAPI (Conversion API) & Google Tag Manager Setup",
@@ -114,7 +114,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "টার্গেটেড ক্লায়েন্ট লিস্ট",
     overviewBn: "ভুল বা নিষ্ক্রিয় ইমেইল অ্যাড্রেসে কোল্ড আউটরিচ করে সময় নষ্ট না করে সরাসরি সঠিক সম্ভাব্য ক্লায়েন্টের কাছে পৌঁছান। আমরা ফিল্টার করে আপনার কাঙ্ক্ষিত ইন্ডাস্ট্রির সিদ্ধান্তগ্রহণকারীদের (CEO, Founder, Director) সম্পূর্ণ যাচাইকৃত এবং জিরো-বাউন্স ইমেইল লিস্ট এনে দিই।",
     overviewEn: "Stop wasting time reaching out to inactive contacts or wrong audiences. We gather and deliver 100% verified, high-intent B2B contact lists of key decision-makers (CEOs, Founders, Directors) tailored specifically to your target industry.",
-    image: "/src/assets/images/service_lead_gen_1790349134253.jpg",
+    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "Targeted Lead Prospecting via LinkedIn Sales Navigator & Premium Tools",
       "Direct Emails & LinkedIn Profile Links of Business Decision Makers",
@@ -179,7 +179,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "স্পিড ও আধুনিক ডিজাইন",
     overviewBn: "একটি ধীরগতির বা পুরনো লেআউটের ওয়েবসাইট আপনার সম্ভাব্য কাস্টমারদের দূরে ঠেলে দেয়। আমরা নিয়ে আসি দৃষ্টিনন্দন UI/UX, দ্রুত লোডিং স্পিড এবং সম্পূর্ণ মোবাইল-রেসপন্সিভ ওয়েবসাইট design, যা ভিজিটরদের দ্রুত কাস্টমারে রূপান্তর করতে সাহায্য করে।",
     overviewEn: "A slow or outdated website discourages potential customers. We build modern, lightning-fast, and fully mobile-responsive websites with conversion-focused UI/UX that turn ordinary traffic into paying clients.",
-    image: "/src/assets/images/service_web_design_1790349148216.jpg",
+    image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "Custom Modern UI/UX Layout with Mobile-First Responsive Design",
       "Seamless Payment Gateway, Contact Forms & CRM Integration",
@@ -244,7 +244,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "ট্রেন্ডি রিলস ও ইউটিউব কনটেন্ট",
     overviewBn: "সামাজিক যোগাযোগ মাধ্যমে দর্শকের নজর ধরে রাখা অন্যতম বড় চ্যালেঞ্জ। ট্রেন্ডি এডিটিং, এনিমেশন, আকর্ষণীয় সাবটাইটেল এবং ক্লিয়ার সাউন্ড ইফেক্টসের মাধ্যমে আমরা আপনার ভিডিও কনটেন্টকে প্রফেশনাল ও ভাইরাল-রেডি করে তুলি।",
     overviewEn: "Capturing viewer attention on social media requires high-level video editing. Through trendy transitions, sound effects, motion graphics, and clean subtitles, we transform your raw footage into engaging, viral-ready content.",
-    image: "/src/assets/images/service_video_editing_1790349165616.jpg",
+    image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "Dynamic Vertical Editing for Reels, TikToks & YouTube Shorts",
       "Custom On-Screen Subtitles, Motion Graphics & Sound Effects",
@@ -309,7 +309,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "ফ্রিতে অর্গানিক ট্রাফিক",
     overviewBn: "বিজ্ঞাপনের বাজেট শেষ হয়ে গেলে পেইড কাস্টমার আসাও বন্ধ হয়ে যায়। কিন্তু আমাদের লং-টার্ম অর্গানিক এসইও স্ট্র্যাটেজির মাধ্যমে গুগল সার্চের শীর্ষ স্থানে র‍্যাঙ্ক করে আপনি কোনো বাড়তি বিজ্ঞাপন খরচ ছাড়াই প্রতিদিন ফ্রি কাস্টমার ও ট্রাফিক পাবেন।",
     overviewEn: "Paid traffic stops the moment you stop paying for ads. Our long-term SEO strategy ranks your website at the top of Google search results, securing steady, high-intent organic traffic for your business organically.",
-    image: "/src/assets/images/service_seo_traffic_1790349181575.jpg",
+    image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "In-Depth Technical, Speed & On-Page SEO Audit",
       "High-Intent Buyer Keyword Research & Content Architecture",
@@ -364,7 +364,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "সময় বাঁচান, অটোমেট করুন",
     overviewBn: "ম্যানুয়াল এবং বারবার করা কাজগুলোতে সময় নষ্ট না করে আপনার ব্যবসাকে অটোমেটিক সিস্টেমে নিয়ে আসুন। নো-কোড টুলস ব্যবহার করে আমরা আপনার লিড ফর্ম, হোয়াটসঅ্যাপ, সিআরএম এবং ইমেইল সিস্টেমকে এমনভাবে যুক্ত করে দিই যাতে ব্যাকএন্ডের কাজগুলো স্বয়ংক্রিয়ভাবে সম্পন্ন হয়।",
     overviewEn: "Eliminate manual, repetitive operational tasks and place your business on autopilot. Using advanced no-code tools, we seamlessly connect your lead forms, WhatsApp, CRM, and email software to run back-end processes automatically.",
-    image: "/src/assets/images/service_no_code_automation_1790349198465.jpg",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "Multi-Step Automated Workflows via Zapier / Make / n8n",
       "Instant Lead Notifications to WhatsApp, Telegram & CRM Systems",
@@ -419,7 +419,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "নির্ভুল ও গুছানো ডাটা",
     overviewBn: "অগোছালো ডাটা বা ভুল স্প্রেডশীট আপনার ব্যবসার সঠিক সিদ্ধান্ত নেওয়ার সময় নষ্ট করে। আমরা ১০০% নিখুঁতভাবে আপনার ডাটা প্রসেস করে, স্প্রেডশীট ক্লিন করে এবং ই-কমার্স প্রোডাক্টের ক্যাটালগ সুন্দরভাবে সাজিয়ে দিই।",
     overviewEn: "Disorganized spreadsheets and errors in data slow down your business operations. We offer highly accurate data entry, spreadsheet formatting, product listing management, and automated web scraping services.",
-    image: "/src/assets/images/service_data_processing_1790349214060.jpg",
+    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "Advanced Excel & Google Sheets Cleaning, Formatting & Formulas",
       "E-Commerce Product Listing, SKU Organization & Meta Tagging",
@@ -473,7 +473,7 @@ export const servicesData: ServiceItem[] = [
     bannerBadgeSubtextBn: "২৪/৭ এডমিন ও ক্লায়েন্ট সাপোর্ট",
     overviewBn: "ব্যবসাকে বড় করার মূল কাজে মনোযোগ দিতে প্রতিদিনের ছোটখাটো অ্যাডমিন কাজগুলো আমাদের দক্ষ ভার্চুয়াল অ্যাসিস্ট্যান্টদের হাতে ছেড়ে দিন। ইমেইল হ্যান্ডেল করা, মিটিং শিডিউল এবং কাস্টমার সাপোর্ট সামলাবে আমাদের টিম।",
     overviewEn: "Focus on high-level business growth while our skilled virtual assistants handle your daily administrative workload, calendar scheduling, inbox organization, and live customer communications.",
-    image: "/src/assets/images/service_virtual_assistant_1790349231794.jpg",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
     whatsIncluded: [
       "Executive Email Management & Inbox Zero Maintenance",
       "Calendar Scheduling, Appointment & Event Management",

@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SynapseCore - Smart Tech. Seamless Growth. | Official B2B Service Catalog</title>
+  <meta name="description" content="SynapseCore Official B2B Service Catalog & Pricing. Verified B2B Lead Generation, Paid Ads, Web Development, and Automation Workflows." />
+  <meta property="og:title" content="SynapseCore - Smart Tech. Seamless Growth." />
+  <meta property="og:description" content="Official B2B Service Catalog and Pricing for SynapseCore." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            bn: ['"Hind Siliguri"', 'sans-serif']
+          },
+          colors: {
+            obsidian: '#020617',
+            slatenavy: '#0F172A',
+            indigoaccent: '#6366F1',
+            violetaccent: '#8B5CF6',
+            cyanaccent: '#06B6D4'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    body {
+      background-color: #020617;
+      color: #F8FAFC;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      overflow-x: hidden;
+    }
+    .font-bn { font-family: 'Hind Siliguri', sans-serif; }
+    .glass-nav {
+      background: rgba(11, 19, 43, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    .glass-card {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(99, 102, 241, 0.5);
+      box-shadow: 0 10px 35px -5px rgba(99, 102, 241, 0.25);
+    }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #020617; }
+    ::-webkit-scrollbar-thumb { background: #1E293B; border-radius: 4px; border: 1px solid rgba(99,102,241,0.2); }
+    ::-webkit-scrollbar-thumb:hover { background: #6366F1; }
+  </style>
+</head>
+
+<body class="selection:bg-indigo-500/30 selection:text-white">
+
+  <!-- ==================== STICKY NAVIGATION BAR ==================== -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-indigo-500/20 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="#hero" class="flex items-center gap-2.5 font-bold tracking-tight text-white select-none group">
+          <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-500 p-0.5 shadow-lg group-hover:scale-105 transition-transform flex items-center justify-center">
+            <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400 font-black text-xl">S</span>
+            </div>
+          </div>
+          <span class="text-xl font-bold tracking-tight text-white">
+            Synapse<span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-300 to-cyan-400 ml-0.5">Core</span>
+          </span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300">
+          <a href="#hero" class="hover:text-indigo-400 transition-colors" data-en="Home" data-bn="হোম">Home</a>
+          <a href="#services" class="hover:text-indigo-400 transition-colors" data-en="Services" data-bn="সার্ভিসসমূহ">Services</a>
+          <a href="#calculator" class="hover:text-indigo-400 transition-colors" data-en="ROI Calculator" data-bn="ক্যালকুলেটর">ROI Calculator</a>
+          <a href="#why-us" class="hover:text-indigo-400 transition-colors" data-en="Why Us" data-bn="কেন আমরা">Why Us</a>
+          <a href="#testimonials" class="hover:text-indigo-400 transition-colors" data-en="Testimonials" data-bn="রিভিউ">Testimonials</a>
+          <a href="#faq" class="hover:text-indigo-400 transition-colors" data-en="FAQ" data-bn="জিজ্ঞাসা">FAQ</a>
+          <a href="#contact" class="hover:text-indigo-400 transition-colors" data-en="Contact" data-bn="যোগাযোগ">Contact</a>
+        </nav>
+
+        <!-- Right Side: Language Switcher & WhatsApp CTA -->
+        <div class="hidden sm:flex items-center gap-4">
+          <button id="langToggleBtn" onclick="toggleLanguage()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800/80 text-xs font-semibold text-slate-200 hover:border-indigo-500 transition-colors">
+            <i class="fa-solid fa-globe text-cyan-400"></i>
+            <span id="langLabel">EN / BN</span>
+          </button>
+
+          <a href="https://wa.me/8801353762827?text=Hello%20SynapseCore!%20I%20would%20like%20to%20discuss%20a%20B2B%20project." target="_blank" class="flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-indigo-500 via-indigo-600 to-violet-600 text-white font-semibold text-sm hover:brightness-110 shadow-[0_0_20px_rgba(99,102,241,0.4)] border border-indigo-400/30 transition-all">
+            <span data-en="Get Started" data-bn="শুরু করুন">Get Started</span>
+            <i class="fa-solid fa-arrow-right text-xs text-cyan-200"></i>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="flex items-center gap-2 sm:hidden">
+          <button onclick="toggleLanguage()" class="p-2 rounded-lg border border-slate-700 bg-slate-800 text-xs font-bold text-slate-200">
+            <span id="langMobileLabel">BN</span>
+          </button>
+          <button onclick="toggleMobileMenu()" class="p-2.5 rounded-lg bg-slate-800 text-slate-200 border border-slate-700 hover:text-white">
+            <i class="fa-solid fa-bars text-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileDrawer" class="hidden sm:hidden bg-slate-900 border-b border-indigo-500/20 px-5 pt-3 pb-6 space-y-3">
+      <nav class="flex flex-col space-y-2 text-slate-200 text-base font-medium">
+        <a href="#hero" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg hover:bg-slate-800" data-en="Home" data-bn="হোম">Home</a>
+        <a href="#services" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg hover:bg-slate-800" data-en="Services" data-bn="সার্ভিসসমূহ">Services</a>
+        <a href="#calculator" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg hover:bg-slate-800" data-en="ROI Calculator" data-bn="ক্যালকুলেটর">ROI Calculator</a>
+        <a href="#why-us" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg hover:bg-slate-800" data-en="Why Us" data-bn="কেন আমরা">Why Us</a>
+        <a href="#testimonials" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg hover:bg-slate-800" data-en="Testimonials" data-bn="রিভিউ">Testimonials</a>
+        <a href="#faq" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg hover:bg-slate-800" data-en="FAQ" data-bn="জিজ্ঞাসা">FAQ</a>
+        <a href="#contact" onclick="toggleMobileMenu()" class="px-3 py-2 rounded-lg hover:bg-slate-800" data-en="Contact" data-bn="যোগাযোগ">Contact</a>
+      </nav>
+      <div class="pt-2 border-t border-slate-800">
+        <a href="https://wa.me/8801353762827" target="_blank" class="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-violet-600 text-white font-bold text-sm">
+          <span>WhatsApp Direct</span>
+          <i class="fa-brands fa-whatsapp text-lg"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="relative pt-32 pb-20 md:pt-44 md:pb-32 overflow-hidden bg-[#020617]">
+    <!-- Ambient Gradients -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[900px] h-[550px] bg-gradient-to-tr from-indigo-600/20 via-violet-600/15 to-cyan-500/10 blur-[130px] pointer-events-none rounded-full"></div>
+    <div class="absolute top-10 right-10 w-[500px] h-[500px] bg-indigo-500/10 blur-[140px] pointer-events-none rounded-full"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        <!-- Left: Headline & Pitch -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-900/90 border border-indigo-500/30 backdrop-blur-md text-xs font-semibold text-indigo-300 uppercase shadow-[0_0_20px_rgba(99,102,241,0.2)]">
+            <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span>
+            <span class="flex items-center gap-1.5">
+              <i class="fa-solid fa-bolt text-cyan-400"></i>
+              <span data-en="AI-Powered B2B Revenue Engine • 2026 Edition" data-bn="এআই-পাওয়ার্ড বি২বি রেভিনিউ ইঞ্জিন • ২০২৬">AI-Powered B2B Revenue Engine • 2026 Edition</span>
+            </span>
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.12]">
+            Smart Tech. <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-300 to-cyan-400">Seamless Growth.</span>
+            <span class="block text-2xl sm:text-3xl lg:text-4xl font-semibold text-slate-300 mt-3" data-en="Accelerate Your Enterprise Revenue" data-bn="আপনার বিজনেসের সেলস ও রেভিনিউ বাড়ান দ্রুতগতিতে">
+              Accelerate Your Enterprise Revenue
+            </span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-300/90 max-w-2xl leading-relaxed" data-en="SynapseCore delivers verified high-ROI digital solutions: high-converting web engineering, precision B2B lead generation, paid acquisition campaigns, content video editing, and automated operational pipelines designed for rapid business scale." data-bn="SynapseCore নিয়ে এসেছে হাই-আরওআই ডিজিটাল সমাধান: হাই-কনভার্টিং ওয়েবসাইট ডিজাইন, ১০০% ভেরিফায়েড বি২বি লিড জেনারেশন, পেইড অ্যাডস ক্যাম্পেইন, ভাইরাল ভিডিও এডিটিং এবং স্মার্ট নো-কোড অটোমেশন—যা আপনার ব্যবসাকে নিয়ে যাবে অনন্য উচ্চতায়।">
+            SynapseCore delivers verified high-ROI digital solutions: high-converting web engineering, precision B2B lead generation, paid acquisition campaigns, content video editing, and automated operational pipelines designed for rapid business scale.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#services" class="flex items-center gap-2.5 px-6 py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 via-indigo-600 to-violet-600 text-white font-bold text-sm hover:brightness-110 shadow-[0_0_25px_rgba(99,102,241,0.4)] border border-indigo-400/40 transition-all">
+              <span data-en="Explore 8 Core Services" data-bn="৮টি সার্ভিস দেখুন">Explore 8 Core Services</span>
+              <i class="fa-solid fa-arrow-right text-cyan-200"></i>
+            </a>
+
+            <a href="https://wa.me/8801353762827?text=Hello%20SynapseCore!%20I%20would%20like%20a%20free%20consultation." target="_blank" class="flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-900/90 border border-slate-700/80 hover:border-emerald-500/60 text-slate-200 hover:text-white font-medium text-sm transition-all backdrop-blur-md">
+              <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+              <span data-en="Direct WhatsApp Consultation" data-bn="হোয়াটসঅ্যাপে যোগাযোগ">Direct WhatsApp Consultation</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges -->
+          <div class="pt-6 grid grid-cols-2 sm:grid-cols-3 gap-3.5 border-t border-slate-800 text-xs text-slate-300">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-cyan-400 text-sm"></i>
+              <span data-en="Zero-Bounce Guarantee" data-bn="জিরো-বাউন্স গ্যারান্টি">Zero-Bounce Guarantee</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-indigo-400 text-sm"></i>
+              <span data-en="Transparent Dual Pricing ($/৳)" data-bn="স্বচ্ছ ডুয়াল প্রাইসিং ($/৳)">Transparent Dual Pricing ($/৳)</span>
+            </div>
+            <div class="flex items-center gap-2 col-span-2 sm:col-span-1">
+              <i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i>
+              <span data-en="Direct WhatsApp Execution" data-bn="সরাসরি হোয়াটসঅ্যাপে অর্ডার">Direct WhatsApp Execution</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: 3D Tech Dashboard Card Mockup -->
+        <div class="lg:col-span-5 relative">
+          <div class="absolute -inset-1.5 bg-gradient-to-r from-indigo-500/30 via-violet-500/30 to-cyan-500/30 rounded-3xl blur-xl opacity-75"></div>
+          <div class="relative rounded-2xl overflow-hidden border border-slate-700/80 bg-slate-900/95 shadow-[0_20px_50px_rgba(2,6,23,0.95)] backdrop-blur-xl">
+            <!-- Window Header -->
+            <div class="flex items-center justify-between px-4 py-3 bg-slate-950 border-b border-slate-800">
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full bg-rose-500/80 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-amber-500/80 inline-block"></span>
+                <span class="w-3 h-3 rounded-full bg-emerald-500/80 inline-block"></span>
+                <span class="text-[11px] font-mono text-slate-400 ml-2">synapsecore-command-hub.app</span>
+              </div>
+              <span class="text-[10px] font-mono font-semibold px-2 py-0.5 rounded bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">
+                LIVE ENGINE
+              </span>
+            </div>
+
+            <!-- Banner Image with fail-safe fallback -->
+            <div class="relative aspect-[16/10] overflow-hidden bg-slate-950">
+              <img
+                src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
+                alt="SynapseCore Command Hub"
+                class="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                referrerpolicy="no-referrer"
+                onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80'"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent"></div>
+
+              <!-- Metric overlay -->
+              <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between p-2.5 rounded-xl bg-slate-900/90 border border-slate-700/80 backdrop-blur-md">
+                <div class="flex items-center gap-2.5">
+                  <div class="p-2 rounded-lg bg-indigo-600/20 text-cyan-400 border border-indigo-500/30">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                  </div>
+                  <div>
+                    <p class="text-[10px] uppercase font-mono text-slate-400">MONTHLY RUN RATE</p>
+                    <p class="text-sm font-bold text-white font-mono">$124,500 <span class="text-emerald-400 text-xs">(+38.4%)</span></p>
+                  </div>
+                </div>
+                <span class="px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-mono">
+                  VERIFIED
+                </span>
+              </div>
+            </div>
+
+            <!-- 3 High Performance Stats -->
+            <div class="p-5 space-y-4 bg-slate-900/90">
+              <div class="grid grid-cols-3 gap-3 text-center">
+                <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800">
+                  <p class="text-xl font-bold text-white font-mono">100%</p>
+                  <p class="text-[11px] text-slate-400 mt-0.5" data-en="Zero Bounce" data-bn="জিরো বাউন্স">Zero Bounce</p>
+                </div>
+                <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800">
+                  <p class="text-xl font-bold text-cyan-400 font-mono">4.8x</p>
+                  <p class="text-[11px] text-slate-400 mt-0.5" data-en="Avg ROAS" data-bn="গড় আরওআই">Avg ROAS</p>
+                </div>
+                <div class="p-3 rounded-xl bg-slate-950/60 border border-slate-800">
+                  <p class="text-xl font-bold text-indigo-400 font-mono">24/7</p>
+                  <p class="text-[11px] text-slate-400 mt-0.5" data-en="Direct Support" data-bn="সার্বক্ষণিক সাপোর্ট">Direct Support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section id="services" class="py-28 relative bg-[#020617]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 border-b border-slate-800 pb-8">
+        <div>
+          <div class="flex items-center gap-2 text-xs font-bold text-indigo-400 uppercase tracking-wider mb-2 font-mono">
+            <i class="fa-solid fa-layer-group text-cyan-400"></i>
+            <span data-en="Comprehensive B2B Solutions" data-bn="পূর্ণাঙ্গ বি২বি সার্ভিস তালিকা">Comprehensive B2B Solutions</span>
+          </div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight" data-en="Official Service Catalog & Packages" data-bn="অফিসিয়াল সার্ভিস ক্যাটালগ ও প্যাকেজসমূহ">
+            Official Service Catalog & Packages
+          </h2>
+          <p class="mt-2 text-sm sm:text-base text-slate-300/80 max-w-2xl" data-en="Explore our 8 specialized enterprise services with verified deliverables, fixed turnaround timelines, and dual currency rates ($ USD & ৳ BDT)." data-bn="আমাদের ৮টি সুনির্দিষ্ট এন্টারপ্রাইজ সার্ভিস দেখুন—যেখানে রয়েছে সুস্পষ্ট কাজের তালিকা, নির্দিষ্ট ডেলিভারি টাইম এবং স্বচ্ছ ইউএসডি ও বিডিটি রেট।">
+            Explore our 8 specialized enterprise services with verified deliverables, fixed turnaround timelines, and dual currency rates ($ USD & ৳ BDT).
+          </p>
+        </div>
+
+        <div class="flex items-center gap-1.5 p-1.5 rounded-xl bg-slate-900 border border-slate-800 self-start md:self-auto shrink-0">
+          <button onclick="filterServices('all')" id="filterAll" class="px-4 py-1.5 rounded-lg text-xs font-semibold bg-gradient-to-r from-indigo-500 to-violet-600 text-white shadow-md">
+            All 8 Services
+          </button>
+          <button onclick="filterServices('growth')" id="filterGrowth" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white">
+            Growth & Ads
+          </button>
+          <button onclick="filterServices('ops')" id="filterOps" class="px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white">
+            Automation & Ops
+          </button>
+        </div>
+      </div>
+
+      <!-- Service Cards Grid -->
+      <div id="serviceGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Rendered dynamically by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== INTERACTIVE ROI & PRICING CALCULATOR ==================== -->
+  <section id="calculator" class="py-24 relative bg-[#0B132B]/60 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-indigo-500/30 text-xs font-semibold text-indigo-300">
+          <i class="fa-solid fa-calculator text-cyan-400"></i>
+          <span data-en="Instant ROI & Cost Calculator" data-bn="ইনস্ট্যান্ট আরওআই ও প্রাইসিং ক্যালকুলেটর">Instant ROI & Cost Calculator</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight" data-en="Calculate Your Investment & Growth" data-bn="আপনার প্রয়োজনীয় সার্ভিস ও বাজেট সিলেক্ট করুন">
+          Calculate Your Investment & Growth
+        </h2>
+        <p class="text-slate-300/80 text-sm sm:text-base" data-en="Select any of our 8 core enterprise services to view transparent pricing, turnaround timelines, and expected business deliverables." data-bn="যেকোনো সার্ভিস নির্বাচন করে তার স্বচ্ছ মূল্য, ডেলিভারির সময়সীমা এবং সম্ভাব্য প্রবৃদ্ধি তাৎক্ষণিক যাচাই করুন।">
+          Select any of our 8 core enterprise services to view transparent pricing, turnaround timelines, and expected business deliverables.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <!-- Left: Service & Tier Controls -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 backdrop-blur-xl">
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-3 font-mono" data-en="1. Choose Enterprise Service" data-bn="১. সার্ভিস নির্বাচন করুন">
+              1. Choose Enterprise Service
+            </label>
+            <div id="calcServiceSelector" class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 backdrop-blur-xl space-y-3">
+            <label class="block text-xs font-bold uppercase tracking-wider text-slate-400 font-mono" data-en="2. Select Package Tier" data-bn="২. প্যাকেজ টিয়ার নির্বাচন করুন">
+              2. Select Package Tier
+            </label>
+            <div id="calcPackageSelector" class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Live Summary Card -->
+        <div class="lg:col-span-5">
+          <div class="p-7 rounded-2xl bg-gradient-to-b from-slate-900 via-slate-900/95 to-slate-950 border border-indigo-500/40 shadow-[0_20px_50px_rgba(2,6,23,0.9)] backdrop-blur-2xl space-y-6">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+              <div>
+                <span class="text-[11px] font-mono text-indigo-400 uppercase tracking-wider block">SUMMARY ESTIMATE</span>
+                <h3 id="calcSummaryTitle" class="text-lg font-bold text-white">Meta & Google Ads</h3>
+              </div>
+              <div class="text-right">
+                <div id="calcSummaryPriceUsd" class="text-2xl font-black text-white font-mono">$60</div>
+                <div id="calcSummaryPriceBdt" class="text-sm font-semibold text-cyan-400 font-bn">৳৭,০০০</div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3 text-center">
+              <div class="p-3 rounded-xl bg-slate-950/70 border border-slate-800">
+                <p class="text-[11px] text-slate-400 uppercase font-mono" data-en="Turnaround" data-bn="ডেলিভারি টাইম">Turnaround</p>
+                <p id="calcSummaryTime" class="text-sm font-bold text-white mt-1">10 Days Management</p>
+              </div>
+              <div class="p-3 rounded-xl bg-slate-950/70 border border-slate-800">
+                <p class="text-[11px] text-slate-400 uppercase font-mono" data-en="Target ROI Impact" data-bn="টার্গেট ইমপ্যাক্ট">Target ROI Impact</p>
+                <p class="text-sm font-bold text-emerald-400 mt-1 flex items-center justify-center gap-1">
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                  <span>3.5x - 5.2x</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <p class="text-xs font-bold uppercase tracking-wider text-slate-400 font-mono" data-en="Verified Deliverables Included:" data-bn="প্যাকেজে অন্তর্ভুক্ত সুবিধাসমূহ:">
+                Verified Deliverables Included:
+              </p>
+              <div id="calcDeliverablesList" class="space-y-2">
+                <!-- Rendered via JS -->
+              </div>
+            </div>
+
+            <div class="pt-4 border-t border-slate-800 space-y-3">
+              <a id="calcWhatsAppBtn" href="#" target="_blank" class="w-full flex items-center justify-center gap-2.5 py-3.5 px-6 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-600 to-emerald-600 hover:brightness-110 text-white font-bold text-sm shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-all border border-emerald-400/30">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span data-en="Book This Package on WhatsApp" data-bn="হোয়াটসঅ্যাপে এই প্যাকেজ বুক করুন">Book This Package on WhatsApp</span>
+              </a>
+              <p class="text-center text-[11px] text-slate-400" data-en="⚡ Average response time: under 15 minutes" data-bn="⚡ সাধারণত ১৫ মিনিটের মধ্যে রেসপন্স করা হয়">
+                ⚡ Average response time: under 15 minutes
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== WHY CHOOSE US SECTION ==================== -->
+  <section id="why-us" class="py-24 bg-[#0F172A]/70 relative border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-indigo-500/30 text-xs font-semibold text-indigo-300 uppercase tracking-wider">
+          <i class="fa-solid fa-shield-halved text-cyan-400"></i>
+          <span data-en="Engineered for Growth" data-bn="ব্যবসার দ্রুত প্রবৃদ্ধির নিশ্চয়তা">Engineered for Growth</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight" data-en="Why Leading Enterprises Trust SynapseCore" data-bn="কেন অগ্রণী প্রতিষ্ঠানগুলো SynapseCore বেছে নেয়">
+          Why Leading Enterprises Trust SynapseCore
+        </h2>
+        <p class="text-sm sm:text-base text-slate-300/80" data-en="We replace trial-and-error with audited execution, strict delivery standards, and quantifiable B2B business outcomes." data-bn="আমরা কেবল প্রতিশ্রুতি নয়, বরং সুনির্দিষ্ট ডাটা, প্রমাণিত স্ট্র্যাটেজি এবং পরিমাপযোগ্য ফলাফলের মাধ্যমে ক্লায়েন্টদের সফল করি।">
+          We replace trial-and-error with audited execution, strict delivery standards, and quantifiable B2B business outcomes.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="rounded-2xl p-6 bg-slate-900/80 border border-slate-800 hover:border-indigo-500/60 transition-all shadow-lg backdrop-blur-xl">
+          <div class="w-12 h-12 rounded-xl bg-slate-950 border border-indigo-500/30 flex items-center justify-center text-cyan-400 text-xl mb-5">
+            <i class="fa-solid fa-shield-check"></i>
+          </div>
+          <div class="text-4xl font-extrabold text-white font-mono">100%</div>
+          <h3 class="text-base font-bold text-slate-100 mt-2" data-en="Zero-Bounce Lead Guarantee" data-bn="জিরো-বাউন্স লিড গ্যারান্টি">Zero-Bounce Lead Guarantee</h3>
+          <p class="text-xs text-slate-300/70 mt-4 pt-4 border-t border-slate-800/80 leading-relaxed" data-en="Dual-verified email verification protocols via NeverBounce & ZeroBounce." data-bn="ডাবল ভেরিফিকেশনের মাধ্যমে ১০০% সক্রিয় বিজনেস ইমেইল সরবরাহ।">
+            Dual-verified email verification protocols via NeverBounce & ZeroBounce.
+          </p>
+        </div>
+
+        <div class="rounded-2xl p-6 bg-slate-900/80 border border-slate-800 hover:border-indigo-500/60 transition-all shadow-lg backdrop-blur-xl">
+          <div class="w-12 h-12 rounded-xl bg-slate-950 border border-indigo-500/30 flex items-center justify-center text-cyan-400 text-xl mb-5">
+            <i class="fa-solid fa-bolt"></i>
+          </div>
+          <div class="text-4xl font-extrabold text-white font-mono">2-5 Days</div>
+          <h3 class="text-base font-bold text-slate-100 mt-2" data-en="Rapid Agile Turnaround" data-bn="দ্রুততম সময়ে ডেলিভারি">Rapid Agile Turnaround</h3>
+          <p class="text-xs text-slate-300/70 mt-4 pt-4 border-t border-slate-800/80 leading-relaxed" data-en="Streamlined operational sprints ensure your campaigns launch without delay." data-bn="সুনির্দিষ্ট টাইমলাইনে দ্রুত ডেলিভারি যাতে প্রজেক্ট থেমে না থাকে।">
+            Streamlined operational sprints ensure your campaigns launch without delay.
+          </p>
+        </div>
+
+        <div class="rounded-2xl p-6 bg-slate-900/80 border border-slate-800 hover:border-indigo-500/60 transition-all shadow-lg backdrop-blur-xl">
+          <div class="w-12 h-12 rounded-xl bg-slate-950 border border-indigo-500/30 flex items-center justify-center text-cyan-400 text-xl mb-5">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <div class="text-4xl font-extrabold text-white font-mono">4.8x</div>
+          <h3 class="text-base font-bold text-slate-100 mt-2" data-en="Average Campaign ROAS" data-bn="বিজ্ঞাপনে গড় ৪.৮ গুণ রিটার্ন">Average Campaign ROAS</h3>
+          <p class="text-xs text-slate-300/70 mt-4 pt-4 border-t border-slate-800/80 leading-relaxed" data-en="Data-driven funnel engineering that maximizes conversion revenue." data-bn="ডাটা-ড্রিভেন ফানেল ও রিটার্গেটিংয়ের মাধ্যমে সর্বোচ্চ সেলস ও আরওআই।">
+            Data-driven funnel engineering that maximizes conversion revenue.
+          </p>
+        </div>
+
+        <div class="rounded-2xl p-6 bg-slate-900/80 border border-slate-800 hover:border-indigo-500/60 transition-all shadow-lg backdrop-blur-xl">
+          <div class="w-12 h-12 rounded-xl bg-slate-950 border border-indigo-500/30 flex items-center justify-center text-cyan-400 text-xl mb-5">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <div class="text-4xl font-extrabold text-white font-mono">24/7</div>
+          <h3 class="text-base font-bold text-slate-100 mt-2" data-en="Dedicated Support Channel" data-bn="সার্বক্ষণিক ক্লায়েন্ট সাপোর্ট">Dedicated Support Channel</h3>
+          <p class="text-xs text-slate-300/70 mt-4 pt-4 border-t border-slate-800/80 leading-relaxed" data-en="Real-time communication and progress tracking over WhatsApp and Slack." data-bn="হোয়াটসঅ্যাপ ও স্ল্যাকে সরাসরি ইনস্ট্যান্ট প্রজেক্ট আপডেট।">
+            Real-time communication and progress tracking over WhatsApp and Slack.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== FAQ SECTION ==================== -->
+  <section id="faq" class="py-24 bg-[#0B132B]/50 relative border-t border-slate-800/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="text-center mb-16 space-y-3">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-indigo-500/30 text-xs font-semibold text-indigo-300 uppercase tracking-wider">
+          <i class="fa-solid fa-circle-question text-cyan-400"></i>
+          <span data-en="Clear Answers" data-bn="সাধারণ প্রশ্নোত্তর">Clear Answers</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight" data-en="Frequently Asked Questions" data-bn="কাজের নিয়ম ও সাধারণ জিজ্ঞাসা">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-sm sm:text-base text-slate-300/80" data-en="Everything you need to know about our engagement terms, turnaround timelines, and payment models." data-bn="আমাদের কাজের পদ্ধতি, পেমেন্ট মাধ্যম এবং সেবা প্রদান সংক্রান্ত গুরুত্বপূর্ণ তথ্য।">
+          Everything you need to know about our engagement terms, turnaround timelines, and payment models.
+        </p>
+      </div>
+
+      <div id="faqAccordion" class="space-y-3.5">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="py-24 relative bg-[#020617]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <div class="lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-indigo-500/30 text-xs font-semibold text-indigo-300 uppercase tracking-wider">
+            <i class="fa-solid fa-envelope text-cyan-400"></i>
+            <span data-en="Initiate Partnership" data-bn="যোগাযোগ ও আলোচনা">Initiate Partnership</span>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight" data-en="Let's Accelerate Your Business Growth" data-bn="আপনার বিজনেসের গ্রোথ শুরু করতে যোগাযোগ করুন">
+            Let's Accelerate Your Business Growth
+          </h2>
+
+          <p class="text-sm sm:text-base text-slate-300/80 leading-relaxed" data-en="Have a tailored requirement, enterprise inquiry, or wish to start immediately? Reach out directly via WhatsApp, email, or LinkedIn." data-bn="নির্দিষ্ট কোনো রিকয়ারমেন্ট বা কাস্টম প্রজেক্ট নিয়ে কথা বলতে চান? সরাসরি হোয়াটসঅ্যাপ, ইমেইল অথবা লিঙ্কডইনে আমাদের সাথে যুক্ত হোন।">
+            Have a tailored requirement, enterprise inquiry, or wish to start immediately? Reach out directly via WhatsApp, email, or LinkedIn.
+          </p>
+
+          <div class="space-y-3.5 pt-2">
+            <a href="https://wa.me/8801353762827?text=Hello%20SynapseCore!%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" class="flex items-center gap-4 p-4 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-emerald-500/60 transition-all group backdrop-blur-xl shadow-md">
+              <div class="w-11 h-11 rounded-xl bg-slate-950 text-emerald-400 flex items-center justify-center text-xl border border-emerald-500/20">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="flex-1 min-w-0">
+                <span class="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider block font-mono" data-en="WhatsApp (Fastest Response)" data-bn="হোয়াটসঅ্যাপ (দ্রুততম রেসপন্স)">WhatsApp (Fastest Response)</span>
+                <p class="text-sm font-bold text-white truncate font-mono">01353762827</p>
+              </div>
+              <i class="fa-solid fa-arrow-right text-emerald-400 opacity-0 group-hover:opacity-100 transition-opacity"></i>
+            </a>
+
+            <a href="mailto:suufiannnn@gmail.com" class="flex items-center gap-4 p-4 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-indigo-500/60 transition-all group backdrop-blur-xl shadow-md">
+              <div class="w-11 h-11 rounded-xl bg-slate-950 text-indigo-400 flex items-center justify-center text-xl border border-indigo-500/20">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="flex-1 min-w-0">
+                <span class="text-[11px] font-semibold text-indigo-400 uppercase tracking-wider block font-mono" data-en="Official Email" data-bn="অফিসিয়াল ইমেইল">Official Email</span>
+                <p class="text-sm font-bold text-white truncate font-mono">suufiannnn@gmail.com</p>
+              </div>
+              <i class="fa-solid fa-arrow-right text-indigo-400 opacity-0 group-hover:opacity-100 transition-opacity"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abu-sufian-al-rohan-9a57a53b5/" target="_blank" class="flex items-center gap-4 p-4 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-cyan-500/60 transition-all group backdrop-blur-xl shadow-md">
+              <div class="w-11 h-11 rounded-xl bg-slate-950 text-cyan-400 flex items-center justify-center text-xl border border-cyan-500/20">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="flex-1 min-w-0">
+                <span class="text-[11px] font-semibold text-cyan-400 uppercase tracking-wider block font-mono" data-en="LinkedIn Leadership Profile" data-bn="লিঙ্কডইন প্রোফাইল">LinkedIn Leadership Profile</span>
+                <p class="text-sm font-bold text-white truncate">Abu Sufian Al Rohan</p>
+              </div>
+              <i class="fa-solid fa-arrow-right text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="lg:col-span-7 rounded-2xl bg-slate-900/85 border border-indigo-500/30 p-6 sm:p-8 shadow-[0_20px_50px_rgba(2,6,23,0.9)] backdrop-blur-xl">
+          <h3 class="text-xl font-bold text-white mb-2" data-en="Send a Direct Project Brief" data-bn="প্রজেক্ট সংক্রান্ত তথ্য পাঠান">
+            Send a Direct Project Brief
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-400 mb-6" data-en="Submit the form to connect directly via our verified communication channel." data-bn="ফর্মটি পূরণ করে সরাসরি আমাদের টিমের সাথে কথা বলুন।">
+            Submit the form to connect directly via our verified communication channel.
+          </p>
+
+          <form onsubmit="handleContactSubmit(event)" class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-en="Your Name / Company *" data-bn="আপনার নাম / প্রতিষ্ঠান *">Your Name / Company *</label>
+                <input id="contactName" type="text" required placeholder="e.g. Arif Rahman" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-500 transition-colors" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-en="Business Email Address *" data-bn="বিজনেস ইমেইল অ্যাড্রেস *">Business Email Address *</label>
+                <input id="contactEmail" type="email" required placeholder="name@company.com" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-500 transition-colors" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-en="Interested B2B Service *" data-bn="আগ্রহী সার্ভিস নির্বাচন করুন *">Interested B2B Service *</label>
+              <select id="contactService" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white text-sm focus:outline-none focus:border-indigo-500 transition-colors">
+                <option value="Meta & Google Paid Ads Campaign">1. Meta & Google Paid Ads Campaign</option>
+                <option value="Verified B2B Lead Generation">2. Verified B2B Lead Generation</option>
+                <option value="High-Converting Website Design">3. High-Converting Website Design</option>
+                <option value="Professional Video Editing">4. Professional Video Editing</option>
+                <option value="Organic Search Engine Optimization (SEO)">5. Organic Search Engine Optimization (SEO)</option>
+                <option value="Smart No-Code & AI Automation">6. Smart No-Code & AI Automation</option>
+                <option value="Accurate Data Entry & Scraping">7. Accurate Data Entry & Scraping</option>
+                <option value="Dedicated Executive Virtual Assistant">8. Dedicated Executive Virtual Assistant</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-en="Project Requirements / Message" data-bn="প্রজেক্ট সম্পর্কে সংক্ষেপে লিখুন">Project Requirements / Message</label>
+              <textarea id="contactMessage" rows="3" placeholder="Describe your target timeline, audience, or questions..." class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-500 transition-colors resize-none"></textarea>
+            </div>
+
+            <button type="submit" class="w-full flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl bg-gradient-to-r from-indigo-500 via-indigo-600 to-violet-600 text-white font-bold text-sm uppercase tracking-wider hover:brightness-110 shadow-[0_0_20px_rgba(99,102,241,0.35)] border border-indigo-400/30 transition-all">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span data-en="Send Inquiry & Open WhatsApp" data-bn="মেসেজ পাঠান ও হোয়াটসঅ্যাপে যুক্ত হোন">Send Inquiry & Open WhatsApp</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-[#020617] border-t border-slate-800/80 pt-16 pb-12 text-slate-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800/80">
+        <div class="lg:col-span-5 space-y-4">
+          <span class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+            <span>Synapse</span>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-violet-300 to-cyan-400">Core</span>
+          </span>
+          <p class="text-sm font-semibold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">
+            Smart Tech. Seamless Growth.
+          </p>
+          <p class="text-xs text-slate-400 max-w-sm leading-relaxed" data-en="SynapseCore is a full-stack B2B service agency specializing in verified performance marketing, lead prospecting, high-converting digital storefronts, and autonomous business workflows." data-bn="SynapseCore হলো আধুনিক বি২বি সার্ভিস এজেন্সি যা পারফরম্যান্স মার্কেটিং, ভেরিফায়েড লিড প্রসপেক্টিং, আধুনিক ওয়েবসাইট এবং অটোমেশন নিয়ে কাজ করে।">
+            SynapseCore is a full-stack B2B service agency specializing in verified performance marketing, lead prospecting, high-converting digital storefronts, and autonomous business workflows.
+          </p>
+        </div>
+
+        <div class="lg:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider font-mono">Quick Navigation</h4>
+          <ul class="space-y-2 text-xs text-slate-400">
+            <li><a href="#hero" class="hover:text-indigo-400 transition-colors">Home Overview</a></li>
+            <li><a href="#services" class="hover:text-indigo-400 transition-colors">All 8 B2B Services</a></li>
+            <li><a href="#calculator" class="hover:text-indigo-400 transition-colors">Instant ROI Calculator</a></li>
+            <li><a href="#why-us" class="hover:text-indigo-400 transition-colors">Why Choose Us</a></li>
+            <li><a href="#faq" class="hover:text-indigo-400 transition-colors">Engagement FAQ</a></li>
+            <li><a href="#contact" class="hover:text-indigo-400 transition-colors">Contact & Inquiries</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4 space-y-3">
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider font-mono">Official Contact</h4>
+          <ul class="space-y-2.5 text-xs text-slate-400 font-mono">
+            <li><i class="fa-solid fa-envelope text-indigo-400 mr-2"></i>suufiannnn@gmail.com</li>
+            <li><i class="fa-brands fa-whatsapp text-emerald-400 mr-2"></i>WhatsApp: 01353762827</li>
+            <li><i class="fa-brands fa-linkedin-in text-cyan-400 mr-2"></i>Abu Sufian Al Rohan</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>© 2026 SynapseCore. All rights reserved. Official B2B Service Catalog & Pricing.</p>
+        <a href="#hero" class="text-cyan-400 hover:text-cyan-300 transition-colors font-mono">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==================== SERVICE DETAIL MODAL ==================== -->
+  <div id="serviceModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/85 backdrop-blur-md flex items-center justify-center p-3 sm:p-4 md:p-6 animate-in fade-in duration-200">
+    <div class="relative w-full max-w-5xl rounded-3xl bg-[#0F172A] border border-indigo-500/40 shadow-[0_25px_60px_rgba(2,6,23,0.95)] overflow-hidden my-6 max-h-[92vh] flex flex-col">
+      <!-- Modal Header -->
+      <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-950/90 backdrop-blur-xl shrink-0 z-20">
+        <div class="flex items-center gap-3">
+          <span id="modalNumberBadge" class="px-2.5 py-1 rounded bg-slate-900 border border-indigo-500/40 text-xs font-mono font-bold text-cyan-400">
+            SERVICE #01
+          </span>
+          <span id="modalHeaderTitle" class="text-sm font-semibold text-white truncate max-w-xs sm:max-w-md">
+            Service Title
+          </span>
+        </div>
+        <button onclick="closeServiceModal()" class="p-2 rounded-xl bg-slate-900 text-slate-300 hover:text-white hover:bg-slate-800 border border-slate-800 transition-colors">
+          <i class="fa-solid fa-xmark text-base"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div id="modalBody" class="overflow-y-auto px-6 py-8 space-y-10 focus:outline-none bg-[#0B132B]/80">
+        <!-- Rendered dynamically via JS -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+  <script>
+    let currentLang = 'en';
+
+    const services = [
+      {
+        id: "meta-google-ads",
+        number: "01",
+        category: "growth",
+        title: "Meta (Facebook/Instagram) & Google Paid Ads Campaign Service",
+        titleBn: "মেটা (ফেসবুক/ইনস্টাগ্রাম) ও গুগল পেইড অ্যাডস ক্যাম্পেইন সার্ভিস",
+        headline: "Meta & Google Paid Ads Management Service",
+        badge: "HIGH-ROI PAID ADS",
+        badgeBn: "সেলস ও বিজনেস গ্রোথ",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "We don't just run basic ads on Facebook and Google; we identify your ideal buyers through precise tracking and advanced Meta Pixel setup. By leveraging data-driven remarketing funnels, we maximize your sales and revenue while keeping your ad acquisition costs as low as possible.",
+        overviewBn: "আমরা শুধু ফেসবুক ও গুগলে প্রমোশনাল পোস্ট বা অ্যাড রান করি না, বরং সঠিক অডিয়েন্স ট্র্যাকিং এবং অ্যাডভান্সড পিক্সেল সেটআপের মাধ্যমে আপনার সার্ভিসের প্রকৃত কাস্টমার খুঁজে বের করি।",
+        deliverables: [
+          "Comprehensive Audience & Competitor Funnel Research",
+          "Complete Meta Pixel, CAPI & Google Tag Manager Setup",
+          "High-Converting Ad Copywriting & Custom Graphics",
+          "A/B Split Testing for Ad Creatives & Funnels",
+          "Weekly Performance Audit & Analytics ROI Report"
+        ],
+        packages: [
+          { name: "Starter Package (10 Days)", nameBn: "স্টার্টার প্যাকেজ (১০ দিন)", priceUsd: "$60", priceBdt: "৳৭,০০০", time: "10 Days Management", timeBn: "১০ দিন ম্যানেজমেন্ট" },
+          { name: "Growth Package (30 Days)", nameBn: "গ্রোথ প্যাকেজ (৩০ দিন)", priceUsd: "$150", priceBdt: "৳১৮,০০০", time: "30 Days Management", timeBn: "৩০ দিন ম্যানেজমেন্ট", popular: true },
+          { name: "Enterprise Retainer", nameBn: "এন্টারপ্রাইজ প্যাকেজ", priceUsd: "$300", priceBdt: "৳৩৫,০০০", time: "Monthly Retainer", timeBn: "মাসিক রিটেইনার" }
+        ]
+      },
+      {
+        id: "b2b-lead-generation",
+        number: "02",
+        category: "growth",
+        title: "Verified B2B Lead Generation & Decision Maker Prospecting Service",
+        titleBn: "ভেরিফায়েড বি২বি লিড জেনারেশন ও ডিসিশন মেকার প্রসপেক্টিং সার্ভিস",
+        headline: "Verified B2B Lead Generation & Prospecting Service",
+        badge: "VERIFIED B2B LEADS",
+        badgeBn: "টার্গেটেড ক্লায়েন্ট লিস্ট",
+        image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "Stop wasting time reaching out to inactive contacts or wrong audiences. We gather and deliver 100% verified, high-intent B2B contact lists of key decision-makers (CEOs, Founders, Directors) tailored specifically to your target industry.",
+        overviewBn: "ভুল বা নিষ্ক্রিয় ইমেইল অ্যাড্রেসে কোল্ড আউটরিচ করে সময় নষ্ট না করে সরাসরি সঠিক সম্ভাব্য ক্লায়েন্টের কাছে পৌঁছান। আমরা যাচাইকৃত এবং জিরো-বাউন্স ইমেইল লিস্ট এনে দিই।",
+        deliverables: [
+          "Targeted Lead Prospecting via LinkedIn Sales Navigator",
+          "Direct Emails & Profiles of Business Decision Makers",
+          "Zero-Bounce Email Verification Guarantee",
+          "Clean Excel/Google Sheet with Company Details"
+        ],
+        packages: [
+          { name: "Starter Pack (200 Leads)", nameBn: "স্টার্টার প্যাক (২০০ লিডস)", priceUsd: "$40", priceBdt: "৳৫,০০০", time: "3 Days Delivery", timeBn: "৩ দিনে ডেলিভারি" },
+          { name: "Growth Pack (500 Leads)", nameBn: "গ্রোথ প্যাক (৫০০ লিডস)", priceUsd: "$90", priceBdt: "৳১১,০০০", time: "5 Days Delivery", timeBn: "৫ দিনে ডেলিভারি", popular: true },
+          { name: "Scale Pack (1,000 Leads)", nameBn: "স্কেল প্যাক (১,০০০ লিডস)", priceUsd: "$160", priceBdt: "৳১৯,৫০০", time: "7 Days Delivery", timeBn: "৭ দিনে ডেলিভারি" }
+        ]
+      },
+      {
+        id: "web-landing-page",
+        number: "03",
+        category: "growth",
+        title: "Custom High-Converting Website & Landing Page Design Service",
+        titleBn: "কাস্টম হাই-কনভার্টিং ওয়েবসাইট ও ল্যান্ডিং পেজ ডিজাইন সার্ভিস",
+        headline: "Custom High-Converting Website & Landing Page Service",
+        badge: "HIGH-CONVERTING WEBSITES",
+        badgeBn: "স্পিড ও আধুনিক ডিজাইন",
+        image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "A slow or outdated website discourages potential customers. We build modern, lightning-fast, and fully mobile-responsive websites with conversion-focused UI/UX that turn ordinary traffic into paying clients.",
+        overviewBn: "আমরা নিয়ে আসি দৃষ্টিনন্দন UI/UX, দ্রুত লোডিং স্পিড এবং সম্পূর্ণ মোবাইল-রেসপন্সিভ ওয়েবসাইট design, যা ভিজিটরদের দ্রুত কাস্টমারে রূপান্তর করতে সাহায্য করে।",
+        deliverables: [
+          "Custom Modern UI/UX Layout with Mobile-First Design",
+          "Seamless Payment Gateway, Contact Forms & CRM Integration",
+          "Speed Optimization, Clean Code & Security Setup",
+          "Basic On-Page SEO Setup & Domain Support"
+        ],
+        packages: [
+          { name: "Single Landing Page", nameBn: "সিঙ্গেল ল্যান্ডিং পেজ", priceUsd: "$100", priceBdt: "৳১২,০০০", time: "5 Days Delivery", timeBn: "৫ দিনে ডেলিভারি" },
+          { name: "Full Business Website", nameBn: "ফুল বিজনেস ওয়েবসাইট", priceUsd: "$250", priceBdt: "৳৩০,০০০", time: "10 Days Delivery", timeBn: "১০ দিনে ডেলিভারি", popular: true },
+          { name: "E-Commerce Portal", nameBn: "ই-কমার্স পোর্টাল", priceUsd: "$450", priceBdt: "৳৫৫,০০০", time: "15 Days Delivery", timeBn: "১৫ দিনে ডেলিভারি" }
+        ]
+      },
+      {
+        id: "video-editing",
+        number: "04",
+        category: "growth",
+        title: "Short & Long-Form Professional Video Editing Service",
+        titleBn: "শর্ট ও লং-ফর্ম প্রফেশনাল ভিডিও এডিটিং সার্ভিস",
+        headline: "Short & Long-Form Video Editing Service",
+        badge: "HIGH-ENGAGEMENT EDITING",
+        badgeBn: "ট্রেন্ডি রিলস ও ভিডিও কনটেন্ট",
+        image: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "Capturing viewer attention on social media requires high-level video editing. Through trendy transitions, sound effects, motion graphics, and clean subtitles, we transform your raw footage into engaging, viral-ready content.",
+        overviewBn: "ট্রেন্ডি এডিটিং, এনিমেশন, আকর্ষণীয় সাবটাইটেল এবং ক্লিয়ার সাউন্ড ইফেক্টসের মাধ্যমে আমরা আপনার ভিডিও কনটেন্টকে প্রফেশনাল ও ভাইরাল-রেডি করে তুলি।",
+        deliverables: [
+          "Dynamic Vertical Editing for Reels, TikToks & YouTube Shorts",
+          "Custom Subtitles, Motion Graphics & Sound Effects",
+          "YouTube Long-Form Content Editing & Thumbnail Creation",
+          "Background Noise Cleaning & Audio Mastering"
+        ],
+        packages: [
+          { name: "Shorts Pack (5 Videos)", nameBn: "শর্টস প্যাক (৫টি ভিডিও)", priceUsd: "$45", priceBdt: "৳৫,৫০০", time: "3 Days Delivery", timeBn: "৩ দিনে ডেলিভারি" },
+          { name: "Creator Pack (15 Shorts)", nameBn: "ক্রিয়েটর প্যাক (১৫টি ভিডিও)", priceUsd: "$120", priceBdt: "৳১৪,৫০০", time: "7 Days Delivery", timeBn: "৭ দিনে ডেলিভারি", popular: true },
+          { name: "YouTube Long-Form Retainer", nameBn: "ইউটিউব লং-ফর্ম রিটেইনার", priceUsd: "$200", priceBdt: "৳২৪,০০০", time: "Monthly Retainer", timeBn: "মাসিক রিটেইনার" }
+        ]
+      },
+      {
+        id: "organic-seo",
+        number: "05",
+        category: "ops",
+        title: "Organic Search Engine Optimization (SEO) & Traffic Growth Service",
+        titleBn: "অর্গানিক সার্চ ইঞ্জিন অপটিমাইজেশন (SEO) ও ট্রাফিক গ্রোথ সার্ভিস",
+        headline: "Organic Search Engine Optimization (SEO) Service",
+        badge: "ORGANIC SEO RANKING",
+        badgeBn: "ফ্রিতে অর্গানিক ট্রাফিক",
+        image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "Paid traffic stops the moment you stop paying for ads. Our long-term SEO strategy ranks your website at the top of Google search results, securing steady, high-intent organic traffic for your business organically.",
+        overviewBn: "আমাদের লং-টার্ম অর্গানিক এসইও স্ট্র্যাটেজির মাধ্যমে গুগল সার্চের শীর্ষ স্থানে র‍্যাঙ্ক করে আপনি কোনো বাড়তি বিজ্ঞাপন খরচ ছাড়াই প্রতিদিন ফ্রি কাস্টমার ও ট্রাফিক পাবেন।",
+        deliverables: [
+          "In-Depth Technical, Speed & On-Page SEO Audit",
+          "High-Intent Buyer Keyword Research",
+          "High-Authority Backlink Building Strategy",
+          "Google Search Console & GA4 Setup"
+        ],
+        packages: [
+          { name: "SEO Audit & Fixes", nameBn: "এসইও অডিট ও ফিক্সেস", priceUsd: "$100", priceBdt: "৳১২,০০০", time: "7 Days Delivery", timeBn: "৭ দিনে ডেলিভারি" },
+          { name: "Monthly Growth Retainer", nameBn: "মান্থলি গ্রোথ রিটেইনার", priceUsd: "$200 / Mo", priceBdt: "৳২৪,০০০ / মাস", time: "Min. 3 Months", timeBn: "৩ মাসের চুক্তি", popular: true }
+        ]
+      },
+      {
+        id: "workflow-automation",
+        number: "06",
+        category: "ops",
+        title: "Smart Business No-Code & AI Workflow Automation Service",
+        titleBn: "স্মার্ট বিজনেস নো-কোড ও এআই ওয়ার্কফ্লো অটোমেশন সার্ভিস",
+        headline: "Smart Business No-Code & AI Workflow Automation",
+        badge: "NO-CODE AUTOMATION",
+        badgeBn: "সময় বাঁচান, অটোমেট করুন",
+        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "Eliminate manual, repetitive operational tasks and place your business on autopilot. Using advanced no-code tools, we seamlessly connect your lead forms, WhatsApp, CRM, and email software to run back-end processes automatically.",
+        overviewBn: "নো-কোড টুলস ব্যবহার করে আমরা আপনার লিড ফর্ম, হোয়াটসঅ্যাপ, সিআরএম এবং ইমেইল সিস্টেমকে এমনভাবে যুক্ত করে দিই যাতে ব্যাকএন্ডের কাজগুলো স্বয়ংক্রিয়ভাবে সম্পন্ন হয়।",
+        deliverables: [
+          "Multi-Step Workflows via Zapier / Make / n8n",
+          "Instant Lead Notifications to WhatsApp & CRM",
+          "Messenger & Web Chatbot Integration",
+          "Automated Client Emails & Invoice Generation"
+        ],
+        packages: [
+          { name: "Single Automation Setup", nameBn: "সিঙ্গেল অটোমেশন সেটআপ", priceUsd: "$50", priceBdt: "৳৬,০০০", time: "2 Days Delivery", timeBn: "২ দিনে ডেলিভারি" },
+          { name: "Complete Business Workflow", nameBn: "কমপ্লিট বিজনেস ওয়ার্কফ্লো", priceUsd: "$140", priceBdt: "৳১৭,০০০", time: "5 Days Delivery", timeBn: "৫ দিনে ডেলিভারি", popular: true }
+        ]
+      },
+      {
+        id: "data-entry-scraping",
+        number: "07",
+        category: "ops",
+        title: "Accurate Data Entry, Spreadsheet Cleaning & Web Scraping Service",
+        titleBn: "অ্যাকিউরেট ডাটা এন্ট্রি, স্প্রেডশীট ক্লিনিং ও ওয়েব স্ক্র্যাপিং সার্ভিস",
+        headline: "Accurate Data Entry & Web Scraping Service",
+        badge: "ACCURATE DATA PROCESSING",
+        badgeBn: "নির্ভুল ও গুছানো ডাটা",
+        image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "Disorganized spreadsheets and errors in data slow down your business operations. We offer highly accurate data entry, spreadsheet formatting, product listing management, and automated web scraping services.",
+        overviewBn: "আমরা ১০০% নিখুঁতভাবে আপনার ডাটা প্রসেস করে, স্প্রেডশীট ক্লিন করে এবং ই-কমার্স প্রোডাক্টের ক্যাটালগ সুন্দরভাবে সাজিয়ে দিই।",
+        deliverables: [
+          "Advanced Excel & Google Sheets Cleaning & Formatting",
+          "E-Commerce Product Listing & Tagging",
+          "Compliant Web Scraping & Database Management"
+        ],
+        packages: [
+          { name: "Hourly Pay-as-You-Go", nameBn: "আওয়ারলি পে-অ্যাজ-ইউ-গো", priceUsd: "$6 / Hr", priceBdt: "৳৭৫০ / ঘণ্টা", time: "Flexible", timeBn: "নমনীয় ঘণ্টার ভিত্তিতে" },
+          { name: "1,000 Cleaned Entries", nameBn: "১,০০০ ক্লিনড এন্ট্রি", priceUsd: "$30", priceBdt: "৳৩,৫০০", time: "3 Days Delivery", timeBn: "৩ দিনে ডেলিভারি", popular: true }
+        ]
+      },
+      {
+        id: "virtual-assistant",
+        number: "08",
+        category: "ops",
+        title: "Dedicated Executive Virtual Assistant (VA) & Admin Support Service",
+        titleBn: "ডেডিকেটেড এক্সিকিউটিভ ভার্চুয়াল অ্যাসিস্ট্যান্ট (VA) ও এডমিন সাপোর্ট",
+        headline: "Dedicated Executive Virtual Assistant Service",
+        badge: "DEDICATED VIRTUAL ASSISTANT",
+        badgeBn: "২৪/৭ এডমিন ও ক্লায়েন্ট সাপোর্ট",
+        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80",
+        overviewEn: "Focus on high-level business growth while our skilled virtual assistants handle your daily administrative workload, calendar scheduling, inbox organization, and live customer communications.",
+        overviewBn: "ব্যবসাকে বড় করার মূল কাজে মনোযোগ দিতে প্রতিদিনের ছোটখাটো অ্যাডমিন কাজগুলো আমাদের দক্ষ ভার্চুয়াল অ্যাসিস্ট্যান্টদের হাতে ছেড়ে দিন।",
+        deliverables: [
+          "Executive Email Management & Inbox Zero",
+          "Calendar Scheduling & Appointment Management",
+          "Customer Chat & Social Media DM Support",
+          "Routine Administrative & Operational Task Execution"
+        ],
+        packages: [
+          { name: "Part-Time VA (20 Hrs/Wk)", nameBn: "পার্ট-টাইম ভিএ (২০ ঘণ্টা/সপ্তাহ)", priceUsd: "$120 / Mo", priceBdt: "৳১৪,৫০০ / মাস", time: "Monthly Contract", timeBn: "মাসিক চুক্তি" },
+          { name: "Full-Time VA (40 Hrs/Wk)", nameBn: "ফুল-টাইম ভিএ (৪০ ঘণ্টা/সপ্তাহ)", priceUsd: "$220 / Mo", priceBdt: "৳২৬,৫০০ / মাস", time: "Monthly Contract", timeBn: "মাসিক চুক্তি", popular: true }
+        ]
+      }
+    ];
+
+    const generalFaqs = [
+      {
+        question: "How do I place an order or start a service?",
+        questionBn: "কীভাবে অর্ডার প্লেস করব অথবা সার্ভিস শুরু করব?",
+        answer: "Browse our official catalog, select your desired package, and click 'Order via WhatsApp'. You will connect directly with our strategic team to confirm scope, timeline, and deliverables.",
+        answerBn: "ক্যাটালগ থেকে প্যাকেজ নির্বাচন করে 'Order via WhatsApp' এ ক্লিক করলেই সরাসরি আমাদের স্ট্র্যাটেজিস্ট টিমের সাথে যুক্ত হবেন।"
+      },
+      {
+        question: "What payment methods do you accept?",
+        questionBn: "পেমেন্ট মাধ্যমগুলো কী কী?",
+        answer: "We support bKash, Nagad, and local Bangladeshi bank transfers for regional clients. For international partners, we accept Stripe, credit cards, and direct wire transfers.",
+        answerBn: "বাংলাদেশি ক্লায়েন্টদের জন্য বিকাশ, নগদ এবং ব্যাংক ট্রান্সফার; গ্লোবাল ক্লায়েন্টদের জন্য স্ট্রাইপ ও ওয়্যার সাপোর্ট করা হয়।"
+      },
+      {
+        question: "Is there a revision or satisfaction guarantee?",
+        questionBn: "কাজের রিভিশন বা গ্যারান্টি পলিসি কী?",
+        answer: "Yes, all service packages include milestone reviews and free revisions. B2B lead generation includes an absolute zero-bounce guarantee.",
+        answerBn: "হ্যাঁ, প্রতিটি প্যাকেজে বিনামূল্যে রিভিশন অন্তর্ভুক্ত। এছাড়া বি২বি লিড জেনারেশনে ১০০% জিরো-বাউন্স গ্যারান্টি রয়েছে।"
+      }
+    ];
+
+    // Selected state for calculator
+    let selectedCalcServiceIndex = 0;
+    let selectedCalcPkgIndex = 0;
+
+    // Filter Services
+    function filterServices(category) {
+      document.querySelectorAll('#filterAll, #filterGrowth, #filterOps').forEach(btn => {
+        btn.className = "px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 hover:text-white";
+      });
+      if (category === 'all') document.getElementById('filterAll').className = "px-4 py-1.5 rounded-lg text-xs font-semibold bg-gradient-to-r from-indigo-500 to-violet-600 text-white shadow-md";
+      if (category === 'growth') document.getElementById('filterGrowth').className = "px-4 py-1.5 rounded-lg text-xs font-semibold bg-gradient-to-r from-indigo-500 to-violet-600 text-white shadow-md";
+      if (category === 'ops') document.getElementById('filterOps').className = "px-4 py-1.5 rounded-lg text-xs font-semibold bg-gradient-to-r from-indigo-500 to-violet-600 text-white shadow-md";
+
+      const filtered = category === 'all' ? services : services.filter(s => s.category === category);
+      renderServiceCards(filtered);
+    }
+
+    function renderServiceCards(list) {
+      const container = document.getElementById('serviceGrid');
+      container.innerHTML = list.map(s => `
+        <div class="group flex flex-col justify-between rounded-2xl bg-slate-900/75 border border-slate-800/90 hover:border-indigo-500/50 transition-all duration-300 shadow-[0_10px_30px_rgba(2,6,23,0.7)] hover:shadow-[0_15px_40px_rgba(99,102,241,0.2)] backdrop-blur-xl overflow-hidden">
+          <div>
+            <div class="relative aspect-[16/9] w-full overflow-hidden bg-slate-950 border-b border-slate-800">
+              <img src="${s.image}" alt="${s.headline}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" referrerpolicy="no-referrer" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80'" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none"></div>
+              <div class="absolute top-3 left-3 flex flex-col gap-1 z-10 pointer-events-none">
+                <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-950/90 backdrop-blur-md border border-indigo-500/40 text-[11px] font-bold text-indigo-300">
+                  <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
+                  ${s.badge}
+                </span>
+              </div>
+              <div class="absolute top-3 right-3 px-2.5 py-0.5 rounded-lg bg-slate-950/90 backdrop-blur-md border border-slate-700 text-xs font-mono font-bold text-cyan-400">
+                #${s.number}
+              </div>
+            </div>
+
+            <div class="p-6 space-y-4">
+              <h3 class="text-xl font-bold text-white tracking-tight leading-snug group-hover:text-indigo-300 transition-colors">
+                ${currentLang === 'bn' ? s.titleBn : s.headline}
+              </h3>
+              <p class="text-sm text-slate-300/80 leading-relaxed line-clamp-3">
+                ${currentLang === 'bn' ? s.overviewBn : s.overviewEn}
+              </p>
+              <div class="pt-2 space-y-1.5 border-t border-slate-800/80 text-xs text-slate-300">
+                ${s.deliverables.slice(0, 2).map(d => `
+                  <div class="flex items-start gap-2">
+                    <i class="fa-solid fa-check text-cyan-400 mt-0.5"></i>
+                    <span class="truncate">${d}</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+
+          <div class="px-6 pb-6 pt-3 mt-auto border-t border-slate-800/80 flex items-center justify-between gap-3 bg-slate-950/40">
+            <div>
+              <span class="text-[10px] text-slate-400 block uppercase font-mono">${currentLang === 'bn' ? 'শুরু' : 'Starting at'}</span>
+              <span class="text-base font-bold text-white font-mono">${s.packages[0].priceUsd} <span class="text-xs text-cyan-400 font-normal font-bn">(${s.packages[0].priceBdt})</span></span>
+            </div>
+            <button onclick="openServiceModal('${s.id}')" class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-violet-600 hover:from-indigo-600 text-white font-semibold text-xs shadow-md border border-indigo-400/30 transition-all">
+              <span>${currentLang === 'bn' ? 'বিস্তারিত ও প্যাকেজ' : 'View Details & Order'}</span>
+              <i class="fa-solid fa-arrow-right text-xs text-cyan-200"></i>
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Calculator Render
+    function renderCalculator() {
+      const selector = document.getElementById('calcServiceSelector');
+      selector.innerHTML = services.map((s, idx) => `
+        <button onclick="selectCalcService(${idx})" class="flex items-center justify-between p-3 rounded-xl border text-left text-xs font-medium transition-all ${selectedCalcServiceIndex === idx ? 'bg-gradient-to-r from-indigo-500/20 to-violet-500/20 border-indigo-500 text-white shadow-md' : 'bg-slate-950/50 border-slate-800 text-slate-300 hover:border-slate-700'}">
+          <span class="truncate pr-2 font-semibold">${currentLang === 'bn' ? s.titleBn : s.headline}</span>
+          <span class="font-mono text-cyan-400 font-bold shrink-0">${s.packages[0].priceUsd}</span>
+        </button>
+      `).join('');
+
+      renderCalculatorPackages();
+    }
+
+    function selectCalcService(index) {
+      selectedCalcServiceIndex = index;
+      selectedCalcPkgIndex = 0;
+      renderCalculator();
+    }
+
+    function renderCalculatorPackages() {
+      const current = services[selectedCalcServiceIndex];
+      const pkgSelector = document.getElementById('calcPackageSelector');
+      pkgSelector.innerHTML = current.packages.map((p, idx) => `
+        <button onclick="selectCalcPkg(${idx})" class="relative p-4 rounded-xl border text-left transition-all ${selectedCalcPkgIndex === idx ? 'bg-indigo-600/20 border-indigo-500 text-white shadow-lg' : 'bg-slate-950/50 border-slate-800 text-slate-300 hover:border-slate-700'}">
+          ${p.popular ? `<span class="absolute -top-2.5 right-3 px-2 py-0.5 rounded-full text-[10px] font-bold bg-gradient-to-r from-indigo-500 to-cyan-400 text-white">POPULAR</span>` : ''}
+          <p class="text-xs font-semibold text-slate-300">${currentLang === 'bn' ? p.nameBn : p.name}</p>
+          <p class="text-lg font-bold text-white font-mono mt-1">${p.priceUsd}</p>
+          <p class="text-xs text-cyan-400 font-bn">${p.priceBdt}</p>
+          <p class="text-[11px] text-slate-400 mt-2 flex items-center gap-1">
+            <i class="fa-regular fa-clock text-slate-500"></i>
+            <span>${currentLang === 'bn' ? p.timeBn : p.time}</span>
+          </p>
+        </button>
+      `).join('');
+
+      updateCalculatorSummary();
+    }
+
+    function selectCalcPkg(idx) {
+      selectedCalcPkgIndex = idx;
+      renderCalculatorPackages();
+    }
+
+    function updateCalculatorSummary() {
+      const currentService = services[selectedCalcServiceIndex];
+      const currentPkg = currentService.packages[selectedCalcPkgIndex];
+
+      document.getElementById('calcSummaryTitle').textContent = currentLang === 'bn' ? currentService.titleBn : currentService.headline;
+      document.getElementById('calcSummaryPriceUsd').textContent = currentPkg.priceUsd;
+      document.getElementById('calcSummaryPriceBdt').textContent = currentPkg.priceBdt;
+      document.getElementById('calcSummaryTime').textContent = currentLang === 'bn' ? currentPkg.timeBn : currentPkg.time;
+
+      const delivContainer = document.getElementById('calcDeliverablesList');
+      delivContainer.innerHTML = currentService.deliverables.map(d => `
+        <div class="flex items-start gap-2.5 text-xs text-slate-300">
+          <i class="fa-solid fa-circle-check text-cyan-400 mt-0.5"></i>
+          <span>${d}</span>
+        </div>
+      `).join('');
+
+      const msg = encodeURIComponent(`Hello SynapseCore! I am interested in ordering:
+• Service: ${currentService.headline}
+• Package: ${currentPkg.name} (${currentPkg.priceUsd} / ${currentPkg.priceBdt})
+• Delivery Timeline: ${currentPkg.time}
+
+Please share the onboarding details and invoice.`);
+      document.getElementById('calcWhatsAppBtn').href = `https://wa.me/8801353762827?text=${msg}`;
+    }
+
+    // Modal
+    function openServiceModal(id) {
+      const s = services.find(item => item.id === id);
+      if (!s) return;
+
+      document.getElementById('modalNumberBadge').textContent = `SERVICE #${s.number}`;
+      document.getElementById('modalHeaderTitle').textContent = currentLang === 'bn' ? s.titleBn : s.title;
+
+      document.getElementById('modalBody').innerHTML = `
+        <div class="space-y-4">
+          <div class="relative aspect-[21/9] sm:aspect-[16/7] w-full rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-xl">
+            <img src="${s.image}" alt="${s.headline}" class="w-full h-full object-cover" referrerpolicy="no-referrer" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80'" />
+            <div class="absolute top-4 left-4 flex flex-col gap-1 z-10 pointer-events-none">
+              <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-xl bg-slate-950/90 backdrop-blur-md border border-indigo-500/50 text-xs font-bold text-indigo-300">
+                <span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
+                ${s.badge}
+              </span>
+            </div>
+          </div>
+          <div>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">${s.headline}</h2>
+            <p class="text-sm font-semibold text-cyan-400 mt-1 font-bn">${s.titleBn}</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-slate-900/90 p-6 rounded-2xl border border-slate-800">
+          <div class="space-y-2 border-b md:border-b-0 md:border-r border-slate-800 pb-5 md:pb-0 md:pr-6">
+            <div class="text-xs font-bold text-indigo-400 uppercase font-mono">সার্ভিস বিস্তারিত (বাংলা)</div>
+            <p class="text-sm text-slate-200 leading-relaxed font-bn">${s.overviewBn}</p>
+          </div>
+          <div class="space-y-2">
+            <div class="text-xs font-bold text-indigo-400 uppercase font-mono">Executive Overview (English)</div>
+            <p class="text-sm text-slate-200 leading-relaxed">${s.overviewEn}</p>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <i class="fa-solid fa-shield-halved text-indigo-400"></i>
+              <span>Key Deliverables</span>
+            </h3>
+            <span class="text-xs text-cyan-400 font-mono">${s.deliverables.length} Deliverables</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+            ${s.deliverables.map(d => `
+              <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-900/60 border border-slate-800">
+                <i class="fa-solid fa-circle-check text-cyan-400 mt-1"></i>
+                <span class="text-sm text-slate-200">${d}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+
+        <div class="space-y-5">
+          <div class="border-b border-slate-800 pb-3">
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <i class="fa-solid fa-sparkles text-indigo-400"></i>
+              <span>Available Packages & Pricing</span>
+            </h3>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            ${s.packages.map(p => {
+              const url = `https://wa.me/8801353762827?text=${encodeURIComponent(`Hello SynapseCore! I would like to order:
+• Service: ${s.headline}
+• Package: ${p.name} (${p.priceUsd} / ${p.priceBdt})
+• Delivery Timeline: ${p.time}
+
+Please confirm availability.`)}`;
+              return `
+                <div class="rounded-2xl p-6 flex flex-col justify-between border ${p.popular ? 'bg-gradient-to-b from-indigo-950/40 via-slate-900 to-slate-950 border-indigo-500 shadow-xl' : 'bg-slate-900/80 border-slate-800'}">
+                  <div class="space-y-3">
+                    <h4 class="text-lg font-bold text-white">${p.name}</h4>
+                    <div class="text-3xl font-extrabold text-white font-mono">${p.priceUsd}</div>
+                    <div class="text-sm font-semibold text-cyan-400 font-bn">${p.priceBdt}</div>
+                    <p class="text-xs text-slate-300 pt-2 border-t border-slate-800">${p.time}</p>
+                  </div>
+                  <div class="pt-6 mt-4 border-t border-slate-800">
+                    <a href="${url}" target="_blank" class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-bold text-xs uppercase transition-all ${p.popular ? 'bg-gradient-to-r from-emerald-500 to-teal-600 text-white shadow-lg' : 'bg-slate-950 text-slate-200 border border-slate-800 hover:bg-indigo-600 hover:text-white'}">
+                      <i class="fa-brands fa-whatsapp text-base"></i>
+                      <span>Order on WhatsApp</span>
+                    </a>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+
+      document.getElementById('serviceModal').classList.remove('hidden');
+    }
+
+    function closeServiceModal() {
+      document.getElementById('serviceModal').classList.add('hidden');
+    }
+
+    // FAQs Render
+    function renderFaqs() {
+      const container = document.getElementById('faqAccordion');
+      container.innerHTML = generalFaqs.map((f, i) => `
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/80 overflow-hidden shadow-sm backdrop-blur-xl">
+          <button onclick="toggleFaq(${i})" class="w-full flex items-center justify-between p-5 text-left font-bold text-white text-base hover:text-indigo-300 transition-colors gap-4">
+            <span>${currentLang === 'bn' ? f.questionBn : f.question}</span>
+            <div id="faqIcon${i}" class="w-7 h-7 rounded-full bg-slate-950 flex items-center justify-center text-cyan-400 shrink-0 border border-slate-800 transition-transform">
+              <i class="fa-solid fa-chevron-down text-xs"></i>
+            </div>
+          </button>
+          <div id="faqAns${i}" class="hidden px-5 pb-5 pt-1 text-sm text-slate-300 leading-relaxed border-t border-slate-800/80">
+            <p>${currentLang === 'bn' ? f.answerBn : f.answer}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function toggleFaq(i) {
+      const ans = document.getElementById(`faqAns${i}`);
+      const icon = document.getElementById(`faqIcon${i}`);
+      const isOpen = !ans.classList.contains('hidden');
+      if (isOpen) {
+        ans.classList.add('hidden');
+        icon.classList.remove('rotate-180', 'bg-indigo-600', 'text-white');
+      } else {
+        ans.classList.remove('hidden');
+        icon.classList.add('rotate-180', 'bg-indigo-600', 'text-white');
+      }
+    }
+
+    // Contact Form
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('contactName').value;
+      const email = document.getElementById('contactEmail').value;
+      const service = document.getElementById('contactService').value;
+      const message = document.getElementById('contactMessage').value;
+
+      const inquiry = `Hello SynapseCore Team!
+New Website Inquiry:
+• Name: ${name}
+• Email: ${email}
+• Requested Service: ${service}
+• Details: ${message || 'Please contact me regarding your packages.'}`;
+
+      const whatsappUrl = `https://wa.me/8801353762827?text=${encodeURIComponent(inquiry)}`;
+      window.open(whatsappUrl, '_blank');
+    }
+
+    // Language Toggle
+    function toggleLanguage() {
+      currentLang = currentLang === 'en' ? 'bn' : 'en';
+      document.getElementById('langLabel').textContent = currentLang === 'en' ? 'EN / BN' : 'বাংলা / EN';
+      document.getElementById('langMobileLabel').textContent = currentLang === 'en' ? 'BN' : 'EN';
+
+      document.querySelectorAll('[data-en]').forEach(el => {
+        el.textContent = currentLang === 'bn' ? el.getAttribute('data-bn') : el.getAttribute('data-en');
+      });
+
+      renderServiceCards(services);
+      renderCalculator();
+      renderFaqs();
+    }
+
+    function toggleMobileMenu() {
+      document.getElementById('mobileDrawer').classList.toggle('hidden');
+    }
+
+    // Initial load
+    renderServiceCards(services);
+    renderCalculator();
+    renderFaqs();
+  </script>
+</body>
+</html>

@@ -28,7 +28,7 @@ export const siteConfig = {
   phone: "01353762827",
   whatsAppNumber: "8801353762827",
   linkedInUrl: "https://www.linkedin.com/in/abu-sufian-al-rohan-9a57a53b5/",
-  heroImage: "/src/assets/images/hero_synapscore_tech_1790349093051.jpg",
+  heroImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
 };
 
 export const testimonialsData: TestimonialItem[] = [

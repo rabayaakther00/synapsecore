@@ -9,6 +9,13 @@
   html {
     scroll-behavior: smooth;
     font-family: var(--font-en);
+    background-color: #020617;
+    color: #F8FAFC;
+  }
+
+  body {
+    background-color: #020617;
+    overflow-x: hidden;
   }
 
   /* Bengali text styling override */
@@ -21,18 +28,46 @@
   }
 }
 
-/* Custom scrollbar for dark emerald aesthetic */
+/* Custom scrollbar for deep obsidian & electric indigo aesthetic */
 ::-webkit-scrollbar {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #051F20;
+  background: #020617;
 }
 ::-webkit-scrollbar-thumb {
-  background: #163832;
+  background: #1E293B;
   border-radius: 4px;
-  border: 1px solid rgba(142, 182, 155, 0.2);
+  border: 1px solid rgba(99, 102, 241, 0.2);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #8EB69B;
+  background: #6366F1;
 }
+
+/* Glassmorphism utilities */
+.glass-card {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-hover:hover {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 10px 30px -10px rgba(99, 102, 241, 0.25);
+  transform: translateY(-2px);
+}
+
+.glow-indigo {
+  box-shadow: 0 0 40px -10px rgba(99, 102, 241, 0.35);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 40px -10px rgba(6, 182, 212, 0.3);
+}
+
